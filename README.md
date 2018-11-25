@@ -4,13 +4,15 @@
 
 ## What needed to define is:
 ### 1. States:
-At each point of time each object has a state with features vector ("location": "OR1", "Name": "Smith", "Specialty": "Neuro"...) which has constraints. For example anesthesiologist location "IN" OR 1 which means she/he can't be in OR 2. 
+At each point of time each object has a state with features vector ("location": "OR1", "Name": "Smith", "Specialty": "Neuro"...) which has constraints. For example anesthesiologist location "IN" OR 1 which means she/he can't be in OR 2.
 
 ### 2. Actions:
 To transition from one state to another you need to define actions. Actions change states from one to new state.
 
 ### 3. Goal Constraint:
 We need to define the goal state which is the final endpoint in the search.
+
+![png](./heuristic_analysis/Anesthesia_Scheduling.png)
 
 Once we define the above it becomes a planning problem where we can use the classic search algorithms and we can decide which algorithm we can use. A comparation between the search algorithms is outlined below.  
 
